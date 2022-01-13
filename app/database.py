@@ -36,38 +36,3 @@ def get_db():
 #         print("Error ", error)
 #         time.sleep(2)
 
-#cur = conn.cursor()
-#cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
-#cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
-#cur.execute("SELECT * FROM fastapi;")
-#cur.fetchone()
-#conn.commit()
-#cur.close()
-#conn.close()
-
-#cursor.close()
-#conn.close()
-
-# my_posts = [{"title": "title pf post 1", "content": "content of post 1", "id": 1}, {"title": "favorite foods", "content": "I like pizza", "id": 2}]
-
-# def find_index_post(id):
-#     for i, p in enumerate(my_posts):
-#         if p['id'] == id:
-#             return i
-
-
-# def find_post(id):
-#     for p in my_posts:
-#         if p["id"] == id:
-#             return p
-
-
-# on mac (environment variables)
-# in cli : export MY_DB_URL="localhost:5432"
-# 
-
-# git 
-# git ignore
-# __pycache__
-# venv/
-# .env 
