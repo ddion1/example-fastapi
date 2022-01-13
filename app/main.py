@@ -32,12 +32,5 @@ app.include_router(vote.router)
 #async def...
 @app.get("/")
 def root():
-    return {"message": "Welcome to my Api"}
+    return {"message": "Welcome to my World !"}
 
-# python3 -m venv venv  
-# source venv/bin/activate
-# uvicorn app.main:app --reload
-# pip install psycopg2-binary
-# source /Users/danieldion/Documents/fastapi/venv/bin/activate
-# deactivate
-#
